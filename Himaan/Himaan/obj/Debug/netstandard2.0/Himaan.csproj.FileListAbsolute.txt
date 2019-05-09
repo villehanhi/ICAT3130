@@ -1,0 +1,14 @@
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\bin\Debug\netstandard2.0\Himaan.deps.json
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\bin\Debug\netstandard2.0\Himaan.dll
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\bin\Debug\netstandard2.0\Himaan.pdb
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\Himaan.csprojAssemblyReference.cache
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\Himaan.csproj.CoreCompileInputs.cache
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\Himaan.AssemblyInfoInputs.cache
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\Himaan.AssemblyInfo.cs
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\Himaan.dll
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\Himaan.pdb
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\OfferEntryPage.xaml.g.cs
+C:\Users\Ville\source\repos\Himaan\Himaan\Himaan\obj\Debug\netstandard2.0\NeedEntryPage.xaml.g.cs

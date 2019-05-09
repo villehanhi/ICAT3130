@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Himaan.OfferEntryPage"
+             Title="Make an offer!">
+   
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="From"/>
+            <Entry Placeholder=""
+                    Text="{Binding Text}"
+                    HeightRequest="45"/>
+            <Label Text="To"/>
+            <Entry Placeholder=""
+                    Text="{Binding Text}"
+                    HeightRequest="45"/>
+            <Label Text="Date"/>
+            <DatePicker MinimumDate="01/01/2019"/>
+            <Label Text="Free seats"/>
+            <Entry Placeholder=""
+                    Text="{Binding Text}"/>
+            <Label Text="Description"/>
+            <Entry Placeholder=""
+                    Text="{Binding Text}"
+                    HeightRequest="50"/>
+            <Button Text="Offer a ride!"
+                    VerticalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
