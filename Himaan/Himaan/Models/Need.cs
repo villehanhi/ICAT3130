@@ -9,10 +9,10 @@ namespace Himaan.Models
 {
     class Need
     {
-        public string offerFrom { get; set; }
-        public string offerTo { get; set; }
-        public DateTime offerDate { get; set; }
-        public string offerDescription { get; set; }
-        public int offerFreeSeats { get; set; }
+        public string needFrom { get; set; }
+        public string needTo { get; set; }
+        public DateTime needDate { get; set; }
+        public string needDescription { get; set; }
+        public int needFreeSeats { get; set; }
     }
 }

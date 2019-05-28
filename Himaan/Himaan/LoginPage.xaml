@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Himaan.LoginPage"
+             Title="Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Username"
+                   WidthRequest="300"
+                   HorizontalOptions="Center"/>
+            <Entry Placeholder=""
+                   Text="{Binding Text}"
+                   HeightRequest="45"
+                   WidthRequest="300"
+                   HorizontalOptions="Center"/>
+            <Label Text="Password"
+                   WidthRequest="300"
+                   HorizontalOptions="Center"/>
+            <Entry Placeholder=""
+                   Text=""
+                   WidthRequest="300"
+                   HorizontalOptions="Center"
+                   IsPassword="True"
+                   HeightRequest="45"/>
+            <Button Text="Login" 
+                    WidthRequest="150"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGreen"/>
+            
+            <Label Text="Don't have an account yet?"
+                   XAlign="Center"
+                   WidthRequest="330"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"
+                   Margin="100"
+                   />
+            <Button Text="Register" 
+                    WidthRequest="150"
+                    HorizontalOptions="Center"
+                    BackgroundColor="LightGreen"
+                    Margin="-100"
+                    Clicked="OnRegisterButtonClicked"
+                    />
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

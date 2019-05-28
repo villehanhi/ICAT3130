@@ -6,7 +6,7 @@
              Title="Himaan" >
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Login"
-                     />
+                     Clicked="OnLoginButtonClicked"/>
     </ContentPage.ToolbarItems>
 
     <StackLayout Margin="20,35,20,20">
@@ -17,6 +17,7 @@
                 Clicked="OnNeedButtonClicked"
                 BackgroundColor="LightCoral"/>
         <Button Text="Search" 
+                Clicked="OnSearchButtonClicked"
                 BackgroundColor="LightSeaGreen"/>
     </StackLayout>
 

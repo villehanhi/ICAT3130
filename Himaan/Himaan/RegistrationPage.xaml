@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+                 x:Class="Himaan.RegistrationPage">
+
+    <StackLayout>
+        <StackLayout>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <Entry x:Name="txtId" Placeholder="ID"></Entry>
+                <Entry x:Name="txtFirstName" Placeholder="Enter First Name"></Entry>
+                <Entry x:Name="txtLastName" Placeholder="Enter Last Name"></Entry>
+                <Entry x:Name="txtEmail" Placeholder="Enter e-mail"></Entry>
+                <Entry x:Name="txtPhone" Placeholder="Enter phone number"></Entry>
+                <Label Text="Date of birth"></Label>
+                <DatePicker x:Name="dtDateOfBirth"></DatePicker>
+
+                <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Button x:Name="btnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked"/>
+                    <Button x:Name="btnRetrive" WidthRequest="200" Text="Retrive" Clicked="BtnRetrive_Clicked"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Button x:Name="btnUpdate" WidthRequest="200" Text="Update" Clicked="BtnUpdate_Clicked" />
+                    <Button x:Name="btnDelete" WidthRequest="200" Text="Delete" Clicked="BtnDelete_Clicked" />
+                </StackLayout>
+
+                <ListView x:Name="lstPersons">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Name}"></TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>  

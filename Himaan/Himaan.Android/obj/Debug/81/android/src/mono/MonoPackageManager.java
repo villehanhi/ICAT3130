@@ -107,8 +107,12 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Himaan.Android.dll" comes first in this list. */
 		"Himaan.Android.dll",
+		"Firebase.dll",
 		"FormsViewGroup.dll",
 		"Himaan.dll",
+		"LiteDB.dll",
+		"Newtonsoft.Json.dll",
+		"System.Reactive.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -128,10 +132,15 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.Palette.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
+		"Xamarin.Firebase.Auth.dll",
+		"Xamarin.Firebase.Common.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

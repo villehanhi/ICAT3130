@@ -1,6 +1,10 @@
-Himaan
-System.Runtime
+Firebase
 FormsViewGroup
+Himaan
+LiteDB
+Newtonsoft.Json
+System.Reactive
+System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -20,8 +24,14 @@ Xamarin.Android.Support.v7.MediaRouter
 Xamarin.Android.Support.v7.Palette
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
+Xamarin.Firebase.Auth
+Xamarin.Firebase.Common
 Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+Xamarin.GooglePlayServices.Base
+Xamarin.GooglePlayServices.Basement
+Xamarin.GooglePlayServices.Tasks
 netstandard
+System.Runtime.InteropServices.WindowsRuntime

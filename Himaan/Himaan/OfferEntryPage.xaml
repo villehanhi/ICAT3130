@@ -8,23 +8,29 @@
         <StackLayout>
             <Label Text="From"/>
             <Entry Placeholder=""
+                   x:Name="txtFrom"
                     Text="{Binding Text}"
                     HeightRequest="45"/>
             <Label Text="To"/>
             <Entry Placeholder=""
+                   x:Name="txtTo"
                     Text="{Binding Text}"
                     HeightRequest="45"/>
             <Label Text="Date"/>
-            <DatePicker MinimumDate="01/01/2019"/>
+            <DatePicker MinimumDate="01/01/2019"
+                        x:Name="dtOfferDate"/>
             <Label Text="Free seats"/>
             <Entry Placeholder=""
+                   x:Name="txtFreeSeats"
                     Text="{Binding Text}"/>
             <Label Text="Description"/>
             <Entry Placeholder=""
+                   x:Name="txtDescription"
                     Text="{Binding Text}"
                     HeightRequest="50"/>
             <Button Text="Offer a ride!"
-                    VerticalOptions="End"/>
+                    VerticalOptions="End"
+                    Clicked="OnOfferButtonClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

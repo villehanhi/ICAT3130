@@ -7,23 +7,29 @@
         <StackLayout>
             <Label Text="From"/>
             <Entry Placeholder=""
+                   x:Name="txtFrom"
                     Text="{Binding Text}"
                     HeightRequest="45"/>
             <Label Text="To"/>
             <Entry Placeholder=""
+                   x:Name="txtTo"
                     Text="{Binding Text}"
                     HeightRequest="45"/>
             <Label Text="Date"/>
-            <DatePicker MinimumDate="01/01/2019"/>
+            <DatePicker MinimumDate="01/01/2019"
+                        x:Name="dtNeedDate"/>
             <Label Text="Seats needed"/>
             <Entry Placeholder=""
+                   x:Name="txtNeededSeats"
                     Text="{Binding Text}"/>
             <Label Text="Description"/>
             <Entry Placeholder=""
+                   x:Name="txtDescription"
                     Text="{Binding Text}"
                     HeightRequest="50"/>
-            <Button Text="Ready to find a ride!"
-                    VerticalOptions="End"/>
+            <Button Text="Ask for a ride!"
+                    VerticalOptions="End"
+                    Clicked="OnAskButtonClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

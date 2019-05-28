@@ -25,5 +25,14 @@ namespace Himaan
         {
             Navigation.PushAsync(new NeedEntryPage());
         }
+
+        private void OnSearchButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SearchPage());
+        }
+        private void OnLoginButtonClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LoginPage());
+        }
     }
 }

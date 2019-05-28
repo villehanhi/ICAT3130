@@ -7,6 +7,7 @@ namespace Himaan
 {
     public partial class App : Application
     {
+
         public App()
         {
             InitializeComponent();
@@ -28,5 +29,6 @@ namespace Himaan
         {
             // Handle when your app resumes
         }
+
     }
 }
